@@ -1,0 +1,7 @@
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Executing Pesti In 6 Seconds";
+	Font = Enum.Font.SourceSansBold;
+	Color = Color3.fromRGB(150, 0, 0);
+})
+task.wait(6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1546.19922, 34.9313622, 408.500519) --pwsait
